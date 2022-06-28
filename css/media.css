@@ -1,0 +1,31 @@
+@media (min-width: 1400px) { 
+    .main{
+        width: 600px;
+    }
+    .image-product-mobile{
+        display: none;
+    }
+    .product h3{
+        display: block;
+        padding: 10px 0; 
+    }
+    .product h4{
+       display: block;
+       padding: 0 10px 10px 0; 
+    }    
+    .product p{
+        display: block; 
+    }
+    .bottom .col:last-child img{
+        
+        left: 22% !important;
+    }    
+   }
+@media (max-width: 1399.98px) { 
+    .main{
+        width: 345px;
+    }
+    .image-product-desktop{
+        display: none;
+    }
+ }

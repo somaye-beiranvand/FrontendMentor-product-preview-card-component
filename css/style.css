@@ -1,0 +1,68 @@
+.col{
+    padding: 0;
+} 
+.row{
+    --bs-gutter-x: 0rem;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+ }
+.main{
+    border-radius: 20px;      
+}
+.image-product-mobile{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.image-product-desktop{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.product h3{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    color:  hsl(228, 12%, 48%);
+    letter-spacing: 0.4em;
+}
+.product h4{
+    font-family:'Fraunces'; 
+    font-weight: 700; 
+    color: hsl(212, 21%, 14%);
+    font-size: 28px;  
+}
+.product p{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+.price p:first-child{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces';
+    font-size: 24px;
+}
+.price p:last-child{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;    
+}
+.bottom .col:last-child input{
+    background-color:hsl(158, 36%, 37%)!important;
+    color: hsl(30, 38%, 92%)!important;
+    font-family: 'Montserrat' !important;
+    font-weight: 700 !important;    
+}
+.bottom .col:last-child input:hover{
+    background-color: #1a4031 !important;
+}
+/*------add image to button-----*/
+.bottom .col:last-child{
+    position: relative;
+}
+.bottom .col:last-child img{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
