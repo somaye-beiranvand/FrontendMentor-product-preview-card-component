@@ -23,7 +23,7 @@
    }
 @media (max-width: 1399.98px) { 
     .main{
-        max-width: 345px;
+       width: 345px;
     }
     .image-product-desktop{
         display: none;
