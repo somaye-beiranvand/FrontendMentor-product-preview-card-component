@@ -8,7 +8,13 @@ body{
     background-color: hsl(30, 38%, 92%);
  }
 .main{
-    border-radius: 20px;      
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);      
 }
 .image-product-mobile{
     border-top-right-radius: 20px;
