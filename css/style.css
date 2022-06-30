@@ -7,9 +7,6 @@
 body{
     background-color: hsl(30, 38%, 92%);
  }
- html,body,.container-fluid{
-    height: 100%;
- }
 .main{
     border-radius: 20px;        
 }
