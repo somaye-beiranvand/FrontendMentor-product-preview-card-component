@@ -60,7 +60,7 @@ body{
 .bottom .col:last-child input:hover{
     background-color: #1a4031 !important;
 }
-/*------add image to button-----*/
+/*------add icon to button-----*/
 .bottom .col:last-child{
     position: relative;
 }
