@@ -1,4 +1,10 @@
 @media (min-width: 1400px) { 
+    
+   }
+@media (max-width: 1399.98px) { 
+    
+ }
+ @media (min-width: 992px) {
     .main{
         width: 600px;
     }
@@ -21,11 +27,10 @@
         left: 22% !important;
     }    
    }
-@media (max-width: 1399.98px) { 
+ @media (max-width: 991.98px) { 
     .main{
-       width: 345px;
-    }
-    .image-product-desktop{
-        display: none;
-    }
- }
+        width: 345px;
+     }
+     .image-product-desktop{
+         display: none;
+  }
