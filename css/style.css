@@ -14,13 +14,10 @@ body {
 .main {
   border-radius: 20px;
 }
-.image-product-mobile {
+.product-img {
+  overflow: hidden;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
-}
-.image-product-desktop {
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
 }
 .product h3 {
   font-family: "Montserrat";
