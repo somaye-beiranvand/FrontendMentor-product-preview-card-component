@@ -12,12 +12,8 @@ body {
   height: 100vh;
 }
 .main {
-  border-radius: 20px;
-}
-.product-img {
   overflow: hidden;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  border-radius: 20px;
 }
 .product h3 {
   font-family: "Montserrat";

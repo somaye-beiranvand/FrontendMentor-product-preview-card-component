@@ -2,10 +2,6 @@
   .main {
     width: 600px;
   }
-  .product-img {
-    border-top-right-radius: 0 !important;
-    border-bottom-left-radius: 20px;
-  }
   .product h3 {
     padding: 10px 0;
   }
